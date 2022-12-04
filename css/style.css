@@ -44,7 +44,7 @@ body {
 .wrapper {
   padding: 20px 40px;
   border-radius: 15px;
-  background-color: #ebf7f8;
+
 }
 
 h1 {
@@ -69,8 +69,8 @@ h1 {
   padding: 10px;
   border: 3px dashed #88abc2;
   border-radius: 3px;
-  color: #f57576;
-  background-color: #fff;
+  color: #2bd6d6d3;
+
   font-size: 2.5rem;
 }
 
