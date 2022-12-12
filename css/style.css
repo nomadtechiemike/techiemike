@@ -32,7 +32,23 @@ a {color: var(--cyan);}
 /*-- Dark Mode Switch --*/
 
 
+particle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  align-self: center;
+}
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 768px (md) */
