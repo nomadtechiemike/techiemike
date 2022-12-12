@@ -6,14 +6,14 @@ body {
 }
 
 /*============= LANDING PAGE =============*/
-header{margin-top: 60px;margin-bottom: 50px;}
+header{margin-top: 30px;margin-bottom: 10px;}
 a {color: var(--cyan);}
 .nav {
-  margin-top: 20px;
+  margin-top: 5px;
   position: absolute;
   left: 0px;
-  height: 40px;
-  background-color: #2C64B4;
+  height: 25px;
+
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ a {color: var(--cyan);}
   padding: 0;
   display: inline-block;
 }
-.menu li{float: left;margin-right:20px; margin-top: 25px;}
+.menu li{float: left;margin-right:20px; margin-top: 5px;}
 .menu ul{float: inline-start;text-align: center;}
 /*-- Landing Page Caption --*/
 
