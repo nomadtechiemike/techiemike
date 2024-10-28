@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /scores/
+
+RewriteRule ^leaderboard.json TopScoresAllJSON.php [L]
+
+</IfModule>
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
